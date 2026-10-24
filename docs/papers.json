@@ -1,0 +1,1396 @@
+{
+  "_meta": {
+    "title": "具身智能全景指南 · 论文速查表（结构化版）",
+    "source": "附录 B（2026-10-05 快照）",
+    "schema": "title: 论文名 | org: 作者/机构 | year: 年份 | venue: 发表处 | arxiv: arXiv 编号（无则为 null）| category: 分类 | verified: arXiv 编号是否已核验",
+    "usage": "arxiv 非 null 时可拼接 https://arxiv.org/abs/{arxiv} 访问"
+  },
+  "papers": [
+    {
+      "category": "理论与算法基础",
+      "title": "Reinforcement Learning: An Introduction (2nd ed.)",
+      "org": "Sutton & Barto",
+      "year": 2018,
+      "venue": "教材（官网免费 PDF）",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "DDPG: Continuous control with deep RL",
+      "org": "Lillicrap et al., DeepMind",
+      "year": 2016,
+      "venue": "ICLR",
+      "arxiv": "1509.02971",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "PPO: Proximal Policy Optimization",
+      "org": "Schulman et al., OpenAI",
+      "year": 2017,
+      "venue": "arXiv",
+      "arxiv": "1707.06347",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "SAC: Soft Actor-Critic",
+      "org": "Haarnoja et al., UC Berkeley",
+      "year": 2018,
+      "venue": "ICML",
+      "arxiv": "1801.01290",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "TD3: Addressing Function Approximation Error in Actor-Critic",
+      "org": "Fujimoto et al.",
+      "year": 2018,
+      "venue": "ICML",
+      "arxiv": "1802.09477",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "DDPGfD",
+      "org": "2017",
+      "year": 2017,
+      "venue": "arXiv",
+      "arxiv": "1707.08817",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "HER: Hindsight Experience Replay",
+      "org": "Andrychowicz et al., OpenAI",
+      "year": 2017,
+      "venue": "NeurIPS",
+      "arxiv": "1707.01495",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "QT-Opt: Scalable Deep RL for Robotic Manipulation",
+      "org": "Kalashnikov et al., Google",
+      "year": 2018,
+      "venue": "arXiv",
+      "arxiv": "1806.10293",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "GAIL: Generative Adversarial Imitation Learning",
+      "org": "Ho & Ermon",
+      "year": 2016,
+      "venue": "NeurIPS",
+      "arxiv": "1604.01457",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "CQL: Conservative Q-Learning (Offline RL)",
+      "org": "Kumar et al.",
+      "year": 2020,
+      "venue": "NeurIPS",
+      "arxiv": "2006.04779",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "IQL: Offline RL with Implicit Q-Learning",
+      "org": "Kostrikov et al.",
+      "year": 2022,
+      "venue": "ICLR",
+      "arxiv": "2110.06169",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "DAgger: A Reduction of Imitation Learning to No-Regret Online Learning",
+      "org": "Ross et al.",
+      "year": 2011,
+      "venue": "AISTATS",
+      "arxiv": "1011.0686",
+      "verified": true
+    },
+    {
+      "category": "理论与算法基础",
+      "title": "End-to-End Training of Deep Visuomotor Policies",
+      "org": "Levine et al.",
+      "year": 2016,
+      "venue": "JMLR",
+      "arxiv": "1504.00702",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "ALOHA + ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+      "org": "Zhao et al., Stanford",
+      "year": 2023,
+      "venue": "RSS",
+      "arxiv": "2304.13705",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "Mobile ALOHA",
+      "org": "Fu et al., Stanford",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2401.02117",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "UMI: Universal Manipulation Interface",
+      "org": "Chi et al., Stanford",
+      "year": 2024,
+      "venue": "RSS",
+      "arxiv": "2402.10329",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "DexCap: Scalable and Portable Mocap Data Collection for Dexterous Manipulation",
+      "org": "Wang et al., Stanford",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2402.07023",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "GELLO: A General, Low-Cost, and Intuitive Teleoperation Framework",
+      "org": "Wu et al., UT Austin/CMU",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2309.13037",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "LEAP Hand: Low-Cost, Efficient, and Anthropomorphic Hand",
+      "org": "Shaw et al., CMU/JHU",
+      "year": 2024,
+      "venue": "RSS",
+      "arxiv": "2309.06440",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "AirExo",
+      "org": "Fang et al., SJTU",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2309.14960",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "Bunny-VisionPro",
+      "org": "Ding et al., UMD/NVIDIA",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2407.03182",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "Ego4D",
+      "org": "Grazhdani et al., Meta",
+      "year": 2021,
+      "venue": "CVPR",
+      "arxiv": "2110.07063",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "Ambidextrous M2（VMT 全身遥操）",
+      "org": "Lin et al., Berkeley",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2402.12720",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "视觉域随机化 Domain Randomization",
+      "org": "Tobin et al., OpenAI",
+      "year": 2017,
+      "venue": "IROS",
+      "arxiv": "1703.06907",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "动力学域随机化 Sim-to-Real Transfer (Dynamics DR)",
+      "org": "Peng et al.",
+      "year": 2018,
+      "venue": "ICRA",
+      "arxiv": "1710.06537",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Solving Rubik's Cube with a Robot Hand（ADR）",
+      "org": "OpenAI",
+      "year": 2019,
+      "venue": "arXiv",
+      "arxiv": "1910.07113",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Learning by Cheating（特权蒸馏）",
+      "org": "Chen et al.",
+      "year": 2019,
+      "venue": "CoRL",
+      "arxiv": "1912.12294",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "ANYmal 复杂地形（teacher-student）",
+      "org": "Lee et al., ETH",
+      "year": 2020,
+      "venue": "Science Robotics",
+      "arxiv": "2010.11251",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Learning to Walk in Minutes",
+      "org": "Rudin et al., ETH/NVIDIA",
+      "year": 2021,
+      "venue": "CoRL",
+      "arxiv": "2109.11978",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Isaac Gym",
+      "org": "Makoviychuk et al., NVIDIA",
+      "year": 2021,
+      "venue": "arXiv",
+      "arxiv": "2108.10470",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Isaac Lab",
+      "org": "NVIDIA",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2511.04831",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "SAPIEN",
+      "org": "Xiang et al., UCSD",
+      "year": 2020,
+      "venue": "CVPR",
+      "arxiv": "2003.08515",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "ManiSkill2",
+      "org": "Gu et al.",
+      "year": 2023,
+      "venue": "ICLR",
+      "arxiv": "2302.04659",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "ManiSkill3",
+      "org": "Tao et al.",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2410.00425",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "robosuite",
+      "org": "Zhu et al., Stanford/UT Austin",
+      "year": 2020,
+      "venue": "arXiv",
+      "arxiv": "2009.12293",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "RLBench",
+      "org": "James et al.",
+      "year": 2020,
+      "venue": "RA-L",
+      "arxiv": "1909.12271",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Habitat",
+      "org": "Szot et al., Meta",
+      "year": 2019,
+      "venue": "ICCV",
+      "arxiv": "1904.01201",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Habitat 2.0",
+      "org": "Meta",
+      "year": 2021,
+      "venue": "NeurIPS",
+      "arxiv": "2106.14405",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Habitat 3.0",
+      "org": "Meta",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2310.13724",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "AI2-THOR",
+      "org": "Kolve et al., Allen AI",
+      "year": 2017,
+      "venue": "arXiv",
+      "arxiv": "1712.05474",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "ProcTHOR",
+      "org": "Allen AI",
+      "year": 2022,
+      "venue": "NeurIPS",
+      "arxiv": "2206.06994",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Holodeck",
+      "org": "Allen AI",
+      "year": 2023,
+      "venue": "CVPR",
+      "arxiv": "2312.09067",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "BEHAVIOR-1K",
+      "org": "Li et al., Stanford",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2403.09227",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Robot Parkour Learning",
+      "org": "Zhuang et al.",
+      "year": 2023,
+      "venue": "CoRL",
+      "arxiv": "2309.05665",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "EXTREME Parkour",
+      "org": "Cheng et al.",
+      "year": 2024,
+      "venue": "ICRA",
+      "arxiv": "2309.12341",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "ASAP（delta action sim2real）",
+      "org": "NVIDIA/UCSD",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2502.01143",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "Real2Render2Real",
+      "org": "Berkeley",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2505.09601",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "SplatSim（3DGS sim2real）",
+      "org": "2024",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2409.10161",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "RoboGSim",
+      "org": "2024",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2411.11839",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "3D Gaussian Splatting",
+      "org": "Kerbl et al.",
+      "year": 2023,
+      "venue": "SIGGRAPH（最佳论文）",
+      "arxiv": "2308.04079",
+      "verified": true
+    },
+    {
+      "category": "Sim2Real/仿真",
+      "title": "NeRF: Neural Radiance Fields",
+      "org": "Mildenhall et al.",
+      "year": 2020,
+      "venue": "ECCV（最佳论文）",
+      "arxiv": "2003.08934",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "Diffusion Policy",
+      "org": "Chi et al., Columbia/TRI",
+      "year": 2023,
+      "venue": "RSS",
+      "arxiv": "2303.04137",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "3D Diffusion Policy",
+      "org": "Ze et al.",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2403.03954",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "DeepMimic",
+      "org": "Peng et al.",
+      "year": 2018,
+      "venue": "SIGGRAPH",
+      "arxiv": "1804.02717",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "ASE: Adversarial Skill Embeddings",
+      "org": "Peng et al.",
+      "year": 2023,
+      "venue": "SIGGRAPH",
+      "arxiv": "2305.03329",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "MaskedMimic",
+      "org": "NVIDIA",
+      "year": 2024,
+      "venue": "SIGGRAPH Asia",
+      "arxiv": "2410.02954",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "DexNet 2.0",
+      "org": "Mahler et al., Berkeley",
+      "year": 2017,
+      "venue": "RSS",
+      "arxiv": "1703.09312",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "GraspNet-1Billion",
+      "org": "Fang et al., 上海 AI Lab",
+      "year": 2021,
+      "venue": "CVPR",
+      "arxiv": "2005.06090",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "Transporter Networks",
+      "org": "Zeng et al.",
+      "year": 2020,
+      "venue": "CoRL",
+      "arxiv": "2010.14406",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "MimicGen",
+      "org": "Mandlekar et al., NVIDIA",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "arxiv": "2310.12996",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "DexMimicGen",
+      "org": "Jiang et al., NVIDIA",
+      "year": 2024,
+      "venue": "ICRA",
+      "arxiv": "2410.24185",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "RoboCasa",
+      "org": "Nasiriany et al.",
+      "year": 2024,
+      "venue": "RSS",
+      "arxiv": "2406.02523",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "FoundationPose",
+      "org": "Wen et al., NVIDIA",
+      "year": 2024,
+      "venue": "CVPR",
+      "arxiv": "2312.08344",
+      "verified": true
+    },
+    {
+      "category": "人形全身控制",
+      "title": "ExBody: Expressive Whole-Body Control",
+      "org": "Cheng et al., UCSD",
+      "year": 2024,
+      "venue": "RSS",
+      "arxiv": "2402.15596",
+      "verified": true
+    },
+    {
+      "category": "人形全身控制",
+      "title": "ExBody2",
+      "org": "UCSD",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2410.21244",
+      "verified": true
+    },
+    {
+      "category": "人形全身控制",
+      "title": "OmniH2O",
+      "org": "He et al., CMU",
+      "year": 2025,
+      "venue": "RSS",
+      "arxiv": "2406.08858",
+      "verified": true
+    },
+    {
+      "category": "人形全身控制",
+      "title": "HumanPlus",
+      "org": "Cheng et al., Stanford",
+      "year": 2025,
+      "venue": "RSS",
+      "arxiv": "2406.10454",
+      "verified": true
+    },
+    {
+      "category": "人形全身控制",
+      "title": "HugWBC",
+      "org": "2025",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2502.08846",
+      "verified": true
+    },
+    {
+      "category": "人形全身控制",
+      "title": "PHC: Perpetual Humanoid Control",
+      "org": "Luo et al., CMU",
+      "year": 2023,
+      "venue": "ICCV",
+      "arxiv": "2305.06456",
+      "verified": true
+    },
+    {
+      "category": "人形全身控制",
+      "title": "HOMIE",
+      "org": "上海 AI Lab 等",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2502.13013",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "RT-1: Robotics Transformer",
+      "org": "Brohan et al., Google",
+      "year": 2022,
+      "venue": "arXiv",
+      "arxiv": "2212.06817",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "PaLM-E",
+      "org": "Driess et al., Google",
+      "year": 2023,
+      "venue": "ICML",
+      "arxiv": "2303.03378",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "RT-2",
+      "org": "Brohan et al., DeepMind",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2307.15818",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "SayCan: Do As I Can, Not As I Say",
+      "org": "Ahn et al., Google",
+      "year": 2022,
+      "venue": "CoRL",
+      "arxiv": "2204.01691",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Code as Policies",
+      "org": "Liang et al., Google",
+      "year": 2022,
+      "venue": "ICRA",
+      "arxiv": "2209.07753",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Inner Monologue",
+      "org": "Huang et al., Google",
+      "year": 2022,
+      "venue": "CoRL",
+      "arxiv": "2207.05608",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "VoxPoser",
+      "org": "Huang et al., Stanford",
+      "year": 2023,
+      "venue": "CoRL",
+      "arxiv": "2301.11596",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "ProgPrompt",
+      "org": "Singh et al.",
+      "year": 2022,
+      "venue": "ICRA",
+      "arxiv": "2211.11559",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "RT-H",
+      "org": "Belkhale et al., Google",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2403.01823",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Open X-Embodiment / RT-X",
+      "org": "OXE Collaboration",
+      "year": 2023,
+      "venue": "ICRA",
+      "arxiv": "2310.08864",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "RoboFlamingo",
+      "org": "Li et al., 字节/清华",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2311.01378",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "3D-VLA",
+      "org": "Zhen et al.",
+      "year": 2024,
+      "venue": "ICML",
+      "arxiv": "2403.09631",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Octo",
+      "org": "Octo Team, Berkeley 等",
+      "year": 2024,
+      "venue": "RSS",
+      "arxiv": "2405.12213",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "OpenVLA",
+      "org": "Kim et al., Stanford/Berkeley",
+      "year": 2024,
+      "venue": "CoRL",
+      "arxiv": "2406.09246",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "OpenVLA-OFT",
+      "org": "Kim et al.",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2502.19645",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "RDT-1B",
+      "org": "Liu et al., 清华等",
+      "year": 2024,
+      "venue": "ICLR",
+      "arxiv": "2410.07864",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "π0 (pi-zero)",
+      "org": "Black et al., Physical Intelligence",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2410.24164",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "π0.5",
+      "org": "Physical Intelligence",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2504.16054",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Knowledge Insulation",
+      "org": "Physical Intelligence",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2505.23705",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "π*0.6 / RECAP",
+      "org": "Physical Intelligence",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2511.14759",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "FAST: Efficient Action Tokenization",
+      "org": "Pertsch et al., PI",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2501.09747",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "RTC: Real-Time Chunking",
+      "org": "PI",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2506.07339",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Hi Robot",
+      "org": "Physical Intelligence",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2502.19417",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "GR00T N1",
+      "org": "NVIDIA",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2503.14734",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Gemini Robotics",
+      "org": "Google DeepMind",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2503.20020",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Gemini Robotics 1.5",
+      "org": "DeepMind",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2510.03342",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "GR-2",
+      "org": "ByteDance",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2410.06158",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "GR-3",
+      "org": "ByteDance Seed",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2507.15493",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "CogACT",
+      "org": "Li et al.",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2411.19650",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "SpatialVLA",
+      "org": "Qu et al.",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2501.15830",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "GraspVLA",
+      "org": "银河通用",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2505.03233",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "UniVLA",
+      "org": "2025",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2505.06111",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "WorldVLA",
+      "org": "阿里",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2506.21539",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "SmolVLA",
+      "org": "Hugging Face",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2506.01844",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "MolmoAct",
+      "org": "AI2",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2508.07917",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Wall-OSS",
+      "org": "银河通用",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2509.11766",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "CoT-VLA",
+      "org": "NVIDIA",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2503.22020",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "数据 scaling 规律（模仿学习）",
+      "org": "2024",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2410.18647",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "HAMLET（长时程记忆）",
+      "org": "2025",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2510.00695",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "VLA 综述",
+      "org": "2025",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2505.04769",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "具身智能综述",
+      "org": "2024",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2401.01368",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "World Models",
+      "org": "Ha & Schmidhuber",
+      "year": 2018,
+      "venue": "NeurIPS",
+      "arxiv": "1803.10122",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Dreamer v1",
+      "org": "Hafner et al.",
+      "year": 2019,
+      "venue": "ICLR",
+      "arxiv": "1912.01603",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Dreamer v2",
+      "org": "Hafner et al.",
+      "year": 2021,
+      "venue": "ICLR",
+      "arxiv": "2010.02193",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "DreamerV3",
+      "org": "Hafner et al.",
+      "year": 2023,
+      "venue": "Nature",
+      "arxiv": "2301.04104",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "DayDreamer（真机）",
+      "org": "Wu et al.",
+      "year": 2022,
+      "venue": "CoRL",
+      "arxiv": "2206.14176",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "TD-MPC2",
+      "org": "Hansen et al.",
+      "year": 2023,
+      "venue": "ICLR",
+      "arxiv": "2310.16828",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Genie: Generative Interactive Environments",
+      "org": "Bruce et al., DeepMind",
+      "year": 2024,
+      "venue": "ICML",
+      "arxiv": "2402.15391",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "NVIDIA Cosmos",
+      "org": "NVIDIA",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2501.03575",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Cosmos-Transfer1",
+      "org": "NVIDIA",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2503.14492",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Cosmos-Predict 2.5",
+      "org": "NVIDIA",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2511.00062",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "V-JEPA 2",
+      "org": "Meta",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2506.09985",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "UniSim",
+      "org": "Yang et al.",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2310.06114",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "DreamGen",
+      "org": "NVIDIA GEAR",
+      "year": 2025,
+      "venue": "CoRL",
+      "arxiv": "2505.12705",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Genie Envisioner",
+      "org": "智元",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2508.05635",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "RoboTransfer",
+      "org": "地平线",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2505.23171",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "VPT: Video PreTraining",
+      "org": "Baker et al., OpenAI",
+      "year": 2022,
+      "venue": "NeurIPS",
+      "arxiv": "2206.01315",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "视频生成评测机器人（Veo×Gemini Robotics）",
+      "org": "DeepMind",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2512.10675",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "BridgeData V2",
+      "org": "Walke et al., Berkeley",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2308.04752",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "RoboNet",
+      "org": "Dasari et al.",
+      "year": 2019,
+      "venue": "RSS",
+      "arxiv": "1910.11215",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "RH20T",
+      "org": "Fang et al.",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2307.00595",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "AgiBot World",
+      "org": "智元/OpenDriveLab",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2503.06669",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "DROID",
+      "org": "Khazatsky et al., Stanford 等 13 实验室",
+      "year": 2024,
+      "venue": "RSS",
+      "arxiv": "2403.12945",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "LIBERO",
+      "org": "Liu et al., UT Austin",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "arxiv": "2306.03310",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "CALVIN",
+      "org": "Mees et al.",
+      "year": 2022,
+      "venue": "RA-L",
+      "arxiv": "2112.03227",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "SIMPLER",
+      "org": "Li et al.",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2405.05941",
+      "verified": true
+    },
+    {
+      "category": "数据集与评测",
+      "title": "泛化评测分类学 (Taxonomy for Evaluating Generalist Robot Policies)",
+      "org": "Gao, Belkhale et al.",
+      "year": 2025,
+      "venue": "RA-L",
+      "arxiv": "2503.01238",
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Computing Machinery and Intelligence",
+      "org": "Alan Turing",
+      "year": 1950,
+      "venue": "Mind",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Intelligence Without Representation",
+      "org": "Rodney Brooks",
+      "year": 1991,
+      "venue": "Artificial Intelligence Journal",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Mind Children",
+      "org": "Hans Moravec",
+      "year": 1988,
+      "venue": "Harvard Univ. Press",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "How the Body Shapes the Way We Think",
+      "org": "Pfeifer & Bongard",
+      "year": 2007,
+      "venue": "MIT Press",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Impedance Control",
+      "org": "Neville Hogan",
+      "year": 1985,
+      "venue": "ASME J. Dyn. Sys.",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "MuJoCo: A physics engine for model-based control",
+      "org": "Todorov, Erez & Tassa",
+      "year": 2012,
+      "venue": "IROS",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Between MDPs and semi-MDPs（options 框架）",
+      "org": "Sutton, Precup & Singh",
+      "year": 1999,
+      "venue": "AIJ",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Probabilistic Robotics",
+      "org": "Thrun, Burgard & Fox",
+      "year": 2005,
+      "venue": "MIT Press",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Modern Robotics",
+      "org": "Lynch & Park",
+      "year": 2017,
+      "venue": "Cambridge Univ. Press（官网免费 PDF）",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "经典文献(无arXiv)",
+      "title": "Helix 白皮书 / GR00T 研究页 / Genie 3 与 SIMA 2 博客",
+      "org": "Figure / NVIDIA / DeepMind",
+      "year": 2025,
+      "venue": "官方技术报告/博客",
+      "arxiv": null,
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "RL-VLM-F: RL from Vision Language Foundation Model Feedback",
+      "org": "Wang et al., UT Austin",
+      "year": 2024,
+      "venue": "ICML",
+      "arxiv": "2402.03681",
+      "verified": true
+    },
+    {
+      "category": "硬件/遥操作/数据采集",
+      "title": "9DTact: Compact Vision-Based Tactile Sensor",
+      "org": "Liu et al., UCSD",
+      "year": 2023,
+      "venue": "arXiv",
+      "arxiv": "2308.14277",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "DexGraspNet: Large-Scale Dexterous Grasp Dataset",
+      "org": "Wang et al., 清华",
+      "year": 2022,
+      "venue": "ICRA",
+      "arxiv": "2210.02697",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "NaVid: Video-based VLM for Vision-and-Language Navigation",
+      "org": "Zhang et al., 上海 AI Lab",
+      "year": 2024,
+      "venue": "RSS",
+      "arxiv": "2402.15852",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "DexPBT: Population Based Training for Hand-Arm Systems",
+      "org": "NVIDIA",
+      "year": 2023,
+      "venue": "ICRA",
+      "arxiv": "2305.12127",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "DeXtreme: Transfer of Agile In-hand Manipulation from Simulation to Reality",
+      "org": "Handa et al., NVIDIA",
+      "year": 2022,
+      "venue": "arXiv",
+      "arxiv": "2210.13702",
+      "verified": true
+    },
+    {
+      "category": "操作学习(IL/RL)",
+      "title": "SERL: A Software Suite for Sample-Efficient Robotic RL",
+      "org": "Edwards et al., Imperial College",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2401.16013",
+      "verified": true
+    }
+  ]
+}
