@@ -1391,6 +1391,60 @@
       "venue": "arXiv",
       "arxiv": "2401.16013",
       "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "SimpleMemVLA（原生视频记忆）",
+      "org": "OpenBMB",
+      "year": true,
+      "venue": "arXiv",
+      "arxiv": "2609.05533",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "DeepThinkVLA（推理增强 VLA）",
+      "org": "OpenBMB",
+      "year": true,
+      "venue": "arXiv",
+      "arxiv": "2511.15669",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "WholeBodyVLA（全身 loco-manipulation 统一 VLA）",
+      "org": "OpenDriveLab",
+      "year": true,
+      "venue": "arXiv",
+      "arxiv": "2512.11047",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "DySL-VLA（动态-静态层跳过推理加速）",
+      "org": "PKU-SEC-Lab",
+      "year": true,
+      "venue": "arXiv",
+      "arxiv": "2602.22896",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "ABot-M0（动作流形学习 VLA 基座）",
+      "org": "AMAP CV Lab, Alibaba",
+      "year": true,
+      "venue": "arXiv",
+      "arxiv": "2602.11236",
+      "verified": true
+    },
+    {
+      "category": "VLA/机器人基础模型",
+      "title": "Anchor-Align（表征锚定 VLA 微调）",
+      "org": "UIUC 等",
+      "year": true,
+      "venue": "arXiv",
+      "arxiv": "2607.13429",
+      "verified": true
     }
   ]
 }
