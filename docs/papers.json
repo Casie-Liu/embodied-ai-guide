@@ -1115,6 +1115,78 @@
     },
     {
       "category": "世界模型",
+      "title": "WorldGPT（Sora 系视频智能体）",
+      "org": "Yang et al.",
+      "year": 2024,
+      "venue": "arXiv",
+      "arxiv": "2403.07944",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "WorldGPT",
+      "org": "Ge et al., 浙大",
+      "year": 2024,
+      "venue": "ACM MM (Oral)",
+      "arxiv": "2404.18202",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "iVideoGPT",
+      "org": "Wu et al., 清华",
+      "year": 2024,
+      "venue": "NeurIPS",
+      "arxiv": "2405.15223",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "IRASim",
+      "org": "Zhu et al., 字节",
+      "year": 2024,
+      "venue": "CoRL",
+      "arxiv": "2406.14540",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Latent Action Pretraining from Videos（LAPA）",
+      "org": "Ye et al., KAIST/DeepMind",
+      "year": 2025,
+      "venue": "ICLR",
+      "arxiv": "2410.11758",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "EnerVerse",
+      "org": "Huang et al., 字节 Seed",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2501.01895",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "MineWorld",
+      "org": "Guo et al., Microsoft Research",
+      "year": 2025,
+      "venue": "arxiv",
+      "arxiv": "2504.08388",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
+      "title": "Latent Action Pretraining Through World Modeling（LAWM）",
+      "org": "Tharwat et al., Adelaide",
+      "year": 2025,
+      "venue": "arXiv",
+      "arxiv": "2509.18428",
+      "verified": true
+    },
+    {
+      "category": "世界模型",
       "title": "DreamGen",
       "org": "NVIDIA GEAR",
       "year": 2025,
