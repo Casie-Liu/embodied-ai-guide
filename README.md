@@ -4,7 +4,8 @@
 > **每个专业概念都附有论文出处**（以 arXiv 编号为主，`arXiv:2410.24164` → https://arxiv.org/abs/2410.24164 直接检索）。
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](./LICENSE)
-![Version](https://img.shields.io/badge/version-v1.0-blue)
+[![check-links](https://github.com/Casie-Liu/embodied-ai-guide/actions/workflows/check-links.yml/badge.svg)](https://github.com/Casie-Liu/embodied-ai-guide/actions/workflows/check-links.yml)
+![Version](https://img.shields.io/badge/version-v1.1-blue)
 ![Status](https://img.shields.io/badge/snapshot-2026--10-orange)
 
 ## 这是什么
@@ -14,6 +15,7 @@
 这份指南试图用一份文档回答：**具身智能到底是什么、由什么组成、现在做到了哪一步、接下来往哪走。**
 
 - 📖 **主干文档**：[具身智能全景指南.md](./具身智能全景指南.md)（约 3.3 万字）
+- 🔬 **结构化论文索引**：[docs/papers.json](./docs/papers.json)（154 条，含分类/年份/机构/arXiv 编号，全部经 arXiv API 自动核验，每周 CI 复查）
 - 🎯 **适合谁**：想系统入门具身智能的学生 / 想换方向进机器人学习的研究者 / 需要建立产业全景的工程师与投资人
 
 ## 内容地图
